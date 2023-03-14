@@ -22,8 +22,8 @@ _PATH=$HOME/bin:$_PATH
 PATH=$_PATH:$PATH
 
 export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+  [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
+  [ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
 
 
 export LAURACORP="$HOME/Library/CloudStorage/GoogleDrive-viglionilaura@gmail.com/My Drive/LauraCorp/"
@@ -63,5 +63,4 @@ ulimit -n 10240
 ulimit -u 2048
 gdrive="/Users/lauraviglioni/Library/CloudStorage/GoogleDrive-viglionilaura@gmail.com/My Drive"
 
-#[ -f "/Users/lauraviglioni/.ghcup/env" ] && source "/Users/lauraviglioni/.ghcup/env" # ghcup-env
 [ -f "/Users/lauraviglioni/.ghcup/env" ] && source "/Users/lauraviglioni/.ghcup/env" # ghcup-env

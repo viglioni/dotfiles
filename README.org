@@ -5,3 +5,8 @@ brew tap koekeishiya/formulae
 brew install yabai
 brew install skhd
 #+end_src
+** oh my zsh
+#+begin_src shell :exports both :results output 
+  brew install zsh
+  sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+#+end_src
